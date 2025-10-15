@@ -1,0 +1,181 @@
+:root {
+    --verde-ecocity: #28a745;
+    --azul-ecocity: #007bff;
+    --blanco: #ffffff;
+    --gris-claro: #f8f9fa;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: var(--gris-claro);
+}
+
+/* Estilos para las tarjetas */
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+/* Estilos para la tabla */
+.table th {
+    border-top: none;
+}:root {
+    --verde-ecocity: #28a745;
+    --azul-ecocity: #007bff;
+    --blanco: #ffffff;
+    --gris-claro: #f8f9fa;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: var(--gris-claro);
+}
+
+/* Estilos para las tarjetas */
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+/* Estilos para la tabla */
+.table th {
+    border-top: none;
+}
+
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los iconos */
+.fas, .fab {
+    color: inherit;
+}
+
+/* Estilos para el botón */
+.btn-success {
+    background-color: var(--verde-ecocity);
+    border-color: var(--verde-ecocity);
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #343a40 !important;
+}
+
+.social-icons a {
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--verde-ecocity) !important;
+}
+
+/* Estilos responsivos adicionales */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Animaciones sutiles */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.card, .table-responsive {
+    animation: fadeIn 0.5s ease-in;
+}
+
+.table-responsive {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para los iconos */
+.fas, .fab {
+    color: inherit;
+}
+
+/* Estilos para el botón */
+.btn-success {
+    background-color: var(--verde-ecocity);
+    border-color: var(--verde-ecocity);
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+    transform: scale(1.05);
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #343a40 !important;
+}
+
+.social-icons a {
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--verde-ecocity) !important;
+}
+
+/* Estilos responsivos adicionales */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Animaciones sutiles */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.card, .table-responsive {
+    animation: fadeIn 0.5s ease-in;
+}
