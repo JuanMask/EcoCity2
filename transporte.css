@@ -1,0 +1,73 @@
+/* Estilos personalizados para la página de Transporte Sostenible */
+
+/* Imagen de fondo para la sección de introducción */
+.intro-section {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+                      url('https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Estilos para las imágenes de la galería */
+.gallery-img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #198754; /* Verde de Bootstrap */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #146c43; /* Verde más oscuro */
+    text-decoration: underline;
+}
+
+/* Estilos para los títulos */
+h1, h2, h3 {
+    color: #198754; /* Verde de Bootstrap */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 60px 0;
+}
+
+/* Estilos para las listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    margin-top: 40px;
+}
+
+/* Ajustes responsivos adicionales */
+@media (max-width: 768px) {
+    .intro-section {
+        background-attachment: scroll;
+    }
+    
+    section {
+        padding: 40px 0;
+    }
+    
+    .gallery-img {
+        height: 200px;
+    }
+}
